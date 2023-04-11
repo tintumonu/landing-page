@@ -1,4 +1,5 @@
 body{
+    background-color: white;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@ body{
     width: 48px;
     height: 48px;
 }
-.header{
+.header, .footer{
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -27,7 +28,7 @@ body{
 
 
 
-.logo-text{
+.logo-text, .footer{
     color: #F9FAF8;
     font-size: 24px;
     
@@ -36,6 +37,7 @@ body{
 a{
     text-decoration: none;
     color:  #E5E7EB;
+    font-size: 18px;
 }
 
 button{
@@ -54,6 +56,7 @@ button{
     gap: 48px;
     padding: 8px 48px;
     background-color: #1F2937;
+   
 }
 .main-container-left{
     display: flex;
@@ -64,3 +67,33 @@ button{
     width: 400px;
     height: 250px;
 }
+.random-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-images{
+    display: flex;
+}
+
+.random-image1{
+    width: 100px;
+    height: 100px;
+}
+.quotes-container{
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+.action-container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    
+}
+
