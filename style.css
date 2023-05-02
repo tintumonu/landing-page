@@ -8,7 +8,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width: 767px) { /* styles for screens up to 767px wide */
+@media screen and (max-width: 480px) { /* styles for screens up to 767px wide */
     .body {
       display: block; /* display the container as a block element */
     }
