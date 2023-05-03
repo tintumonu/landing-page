@@ -187,7 +187,11 @@ button{
     .random-images{
       display: block;
       text-align: center;
-      
+    }
+
+    .main-image {
+        
+        max-width: 400px;
     }
 
    
