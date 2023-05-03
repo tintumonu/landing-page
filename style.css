@@ -165,12 +165,8 @@ button{
 }
 
 .footer{
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    gap: 48px;
-    padding: 8px 48px;
     background-color: #1F2937;
+    text-align: center;
 }
 
 @media (max-width: 768px) { /* styles for screens up to 767px wide */
