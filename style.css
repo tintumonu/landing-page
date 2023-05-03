@@ -1,20 +1,8 @@
 body{
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     padding: 0;
-    width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
     font-family: 'Times New Roman', Times, serif;
-}
-
-.footer-maintain{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin: 0;
-    padding: 0;
-    
 }
 
 .header{
@@ -23,7 +11,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: 400px;
+    
+    
 }
 .header-top{
     display: flex;
@@ -46,7 +35,7 @@ ul{
     gap: 24px;
     height: 60px;
     align-items: center;
-    width: 100%;
+    
 }
 
 .leftside-header{
@@ -71,25 +60,8 @@ a{
     margin: 0;
     background-color: #1F2937;
 }
-.main-container-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 300px;
-    gap: 32px;
-    margin: 0;
-    padding: 0;
-}
-.main-container-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 300px;
-    margin: 0;
-    padding: 0;
-}
+
+
 .main-text{
     color: #F9FAF8;
     font-size: 48px;
@@ -116,18 +88,12 @@ button{
     width: 450px;
     height: 220px; 
 }
-.random-info-container{
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;       
-}
 
 .random-text{
     color: #1F2937;
     font-size: 36px;
     font-weight: 800;
+    text-align: center;
 }
 
 .random-images{
@@ -143,9 +109,10 @@ button{
 }
 
 .random-subtext{
-    width: 250px;
+    
     height: auto;
-    margin-top: 8px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .quotes-container{
@@ -159,7 +126,7 @@ button{
 }
 .quote{
     color: #1F2937;
-    width: 800px;
+    text-align: center;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -203,11 +170,24 @@ button{
     background-color: #1F2937;
 }
 
-@media (max-width: 480px) { /* styles for screens up to 767px wide */
+@media (max-width: 768px) { /* styles for screens up to 767px wide */
     .main-container{
-      display: block; /* display the container as a block element */
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
     
+    .random-info-container{
+        display: block;
+    }
+    
+    .random-images{
+      display: block;
+      text-align: center;
+      
+    }
+
+   
     
 }
 
